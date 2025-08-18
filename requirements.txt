@@ -1,0 +1,10 @@
+# Essential packages for portfolio
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Optional: Simple web server for local development
+# flask==3.0.0
+
+# Optional: If you want to add simple Python scripts
+# beautifulsoup4==4.12.2
+# lxml==4.9.3
