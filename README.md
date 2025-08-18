@@ -83,5 +83,3 @@ components/
 ## Notes
 
 - The email sending is simulated by logging to the server console. Replace with your email provider SDK if needed.
-
-
