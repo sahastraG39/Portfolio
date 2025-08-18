@@ -29,8 +29,8 @@ export function ContactSection() {
             className="text-xl text-gray-600 max-w-3xl mx-auto animate-fade-in-up"
             style={{ animationDelay: '0.2s' }}
           >
-            I'm always open to discussing new opportunities, interesting projects, or just having a
-            chat about technology
+            I&apos;m always open to discussing new opportunities, interesting projects, or just
+            having a chat about technology
           </p>
         </div>
 

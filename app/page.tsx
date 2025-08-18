@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { EducationSection } from '@/components/sections/education-section';
 import { ProjectsSection } from '@/components/sections/projects-section';
 import { ArticlesSection } from '@/components/sections/articles-section';
@@ -27,9 +28,11 @@ export default function Home() {
               <div className="flex justify-center lg:justify-start">
                 <div className="relative">
                   <div className="w-72 h-72 lg:w-80 lg:h-80 rounded-full border-4 border-teal-200 overflow-hidden shadow-lg">
-                    <img
+                    <Image
                       src="/profile-photo.jpg.jpg"
                       alt="Sahastra Gunasegaram"
+                      width={320}
+                      height={320}
                       className="w-full h-full object-cover object-center"
                       style={{ objectPosition: 'center 20%' }}
                     />
@@ -160,7 +163,7 @@ export default function Home() {
                 <div>
                   <div className="bg-gray-800 p-5 rounded-lg border border-purple-700">
                     <blockquote className="text-base italic text-gray-200 mb-3">
-                      "In God we trust, all others bring data."
+                      &ldquo;In God we trust, all others bring data.&rdquo;
                     </blockquote>
                     <p className="text-sm text-gray-400 mb-3">- W. Edwards Deming</p>
                     <button
@@ -183,7 +186,7 @@ export default function Home() {
                       <ul className="text-xs text-gray-300 space-y-1">
                         <li className="flex items-start">
                           <span className="text-purple-400 mr-2">•</span>
-                          Don't just say "this model works well"
+                          Don&apos;t just say &ldquo;this model works well&rdquo;
                         </li>
                         <li className="flex items-start">
                           <span className="text-purple-400 mr-2">•</span>
