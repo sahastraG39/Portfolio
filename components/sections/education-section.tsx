@@ -22,9 +22,9 @@ export function EducationSection() {
             style={{ animationDelay: '0.3s' }}
           >
             <div className="flex items-center mb-4">
-              <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+              <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mr-3">
                 <svg
-                  className="w-5 h-5 text-blue-600"
+                  className="w-5 h-5 text-purple-600"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -42,19 +42,19 @@ export function EducationSection() {
             <div className="space-y-4">
               <div className="p-4 bg-gray-50 rounded-lg">
                 <h4 className="text-lg font-semibold text-gray-900">University of Peradeniya</h4>
-                <p className="text-blue-600 font-medium">
+                <p className="text-purple-600 font-medium">
                   B.Sc. (Hons.) in Statistics and Operations Research
                 </p>
                 <p className="text-gray-600 text-sm">Fourth Year Student • CGPA: 3.6/4.00</p>
               </div>
               <div className="p-4 bg-gray-50 rounded-lg">
                 <h4 className="text-lg font-semibold text-gray-900">University of Colombo</h4>
-                <p className="text-blue-600 font-medium">BIT</p>
+                <p className="text-purple-600 font-medium">BIT</p>
                 <p className="text-gray-600 text-sm">Bachelor of Information Technology</p>
               </div>
               <div className="p-4 bg-gray-50 rounded-lg">
                 <h4 className="text-lg font-semibold text-gray-900">SLIIT</h4>
-                <p className="text-blue-600 font-medium">
+                <p className="text-purple-600 font-medium">
                   Certificate Programming in IT Applications
                 </p>
                 <p className="text-gray-600 text-sm">Professional IT Programming Certification</p>
@@ -68,9 +68,9 @@ export function EducationSection() {
             style={{ animationDelay: '0.4s' }}
           >
             <div className="flex items-center mb-4">
-              <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mr-3">
+              <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mr-3">
                 <svg
-                  className="w-5 h-5 text-green-600"
+                  className="w-5 h-5 text-purple-600"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -88,7 +88,7 @@ export function EducationSection() {
             <div className="space-y-4">
               <div className="p-4 bg-gray-50 rounded-lg">
                 <h4 className="text-lg font-semibold text-gray-900">Current Role</h4>
-                <p className="text-green-600 font-medium">AI/ML Intern</p>
+                <p className="text-purple-600 font-medium">AI/ML Intern</p>
                 <p className="text-gray-600 text-sm">
                   Developing innovative solutions in machine learning with AI
                 </p>

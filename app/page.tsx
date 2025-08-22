@@ -27,7 +27,7 @@ export default function Home() {
               {/* Profile Photo - Subtle & Clean */}
               <div className="flex justify-center lg:justify-start">
                 <div className="relative">
-                  <div className="w-72 h-72 lg:w-80 lg:h-80 rounded-full border-4 border-teal-200 overflow-hidden shadow-lg">
+                  <div className="w-72 h-72 lg:w-80 lg:h-80 rounded-full border-4 border-purple-200 overflow-hidden shadow-lg">
                     <Image
                       src="/profile-photo.jpg.jpg"
                       alt="Sahastra Gunasegaram"

@@ -20,7 +20,7 @@ export function Navbar() {
           {/* Logo/Name */}
           <Link
             href="/"
-            className="font-bold text-2xl text-blue-600 hover:text-blue-700 transition-colors"
+            className="font-bold text-2xl text-purple-600 hover:text-purple-700 transition-colors"
           >
             SG
           </Link>
@@ -29,31 +29,31 @@ export function Navbar() {
           <nav className="hidden md:flex gap-8 items-center">
             <Link
               href="#me"
-              className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+              className="text-gray-700 hover:text-purple-600 transition-colors font-medium"
             >
               Me
             </Link>
             <Link
               href="#education"
-              className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+              className="text-gray-700 hover:text-purple-600 transition-colors font-medium"
             >
               Education
             </Link>
             <Link
               href="#projects"
-              className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+              className="text-gray-700 hover:text-purple-600 transition-colors font-medium"
             >
               Projects
             </Link>
             <Link
               href="#skills"
-              className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+              className="text-gray-700 hover:text-purple-600 transition-colors font-medium"
             >
               Skills
             </Link>
             <Link
               href="#contact"
-              className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+              className="text-gray-700 hover:text-purple-600 transition-colors font-medium"
             >
               Contact
             </Link>
@@ -82,35 +82,35 @@ export function Navbar() {
             <nav className="flex flex-col gap-4">
               <Link
                 href="#me"
-                className="text-gray-700 hover:text-blue-600 transition-colors font-medium py-2"
+                className="text-gray-700 hover:text-purple-600 transition-colors font-medium py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Me
               </Link>
               <Link
                 href="#education"
-                className="text-gray-700 hover:text-blue-600 transition-colors font-medium py-2"
+                className="text-gray-700 hover:text-purple-600 transition-colors font-medium py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Education
               </Link>
               <Link
                 href="#projects"
-                className="text-gray-700 hover:text-blue-600 transition-colors font-medium py-2"
+                className="text-gray-700 hover:text-purple-600 transition-colors font-medium py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Projects
               </Link>
               <Link
                 href="#skills"
-                className="text-gray-700 hover:text-blue-600 transition-colors font-medium py-2"
+                className="text-gray-700 hover:text-purple-600 transition-colors font-medium py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Skills
               </Link>
               <Link
                 href="#contact"
-                className="text-gray-700 hover:text-blue-600 transition-colors font-medium py-2"
+                className="text-gray-700 hover:text-purple-600 transition-colors font-medium py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Contact

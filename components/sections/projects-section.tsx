@@ -112,7 +112,7 @@ export function ProjectsSection() {
                     {project.description.length > 100 && (
                       <button
                         onClick={() => toggleProject(index)}
-                        className="text-blue-600 hover:text-blue-700 text-sm font-medium mt-1 transition-colors"
+                        className="text-purple-600 hover:text-purple-700 text-sm font-medium mt-1 transition-colors"
                       >
                         {expandedProjects.has(index) ? 'Read Less' : 'Read More'}
                       </button>
@@ -126,7 +126,7 @@ export function ProjectsSection() {
                       {project.technologies.map((tech) => (
                         <span
                           key={tech}
-                          className="px-2 py-1 bg-blue-50 text-blue-700 text-xs rounded-full border border-blue-200 hover:bg-blue-100 transition-colors duration-200"
+                          className="px-2 py-1 bg-purple-50 text-purple-700 text-xs rounded-full border border-purple-200 hover:bg-purple-100 transition-colors duration-200"
                         >
                           {tech}
                         </span>
