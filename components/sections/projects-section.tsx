@@ -4,22 +4,22 @@ import { useState } from 'react';
 
 const projects = [
   {
-    title: 'Bayesian Analysis - Statistical Inference & Decision Making',
+    title: 'Bayesian Analysis of Student Academic Performance - STA4063 Mini Project',
     description:
-      'Comprehensive Bayesian analysis project implementing advanced statistical inference techniques including Bayesian parameter estimation, hypothesis testing, and decision theory. The project covers prior and posterior distributions, Markov Chain Monte Carlo (MCMC) methods, Bayesian model comparison, and credible intervals. Applied Bayesian methods to real-world datasets for parameter estimation, A/B testing, and uncertainty quantification. Features include implementation of conjugate priors, Metropolis-Hastings algorithm, Gibbs sampling, and Bayesian model averaging for robust statistical inference.',
+      'Comprehensive Bayesian statistical analysis project exploring how Bayesian methods can be applied to analyze and predict student academic performance. The project implements advanced Bayesian inference techniques including parameter estimation, hypothesis testing, and predictive modeling using student performance datasets. Features include prior and posterior distribution analysis, Markov Chain Monte Carlo (MCMC) methods, credible intervals, and Bayesian model comparison. The analysis provides insights into factors affecting academic performance and demonstrates the power of Bayesian statistics in educational data science.',
     technologies: [
       'Bayesian Statistics',
       'MCMC Methods',
-      'PyMC3/PyMC4',
-      'NumPy',
-      'SciPy',
-      'Matplotlib',
-      'Seaborn',
-      'Jupyter',
+      'Jupyter Notebook',
+      'Python',
       'Statistical Modeling',
-      'Decision Theory',
+      'Educational Data Science',
+      'Predictive Analytics',
+      'Hypothesis Testing',
+      'Parameter Estimation',
+      'Academic Research',
     ],
-    github: 'https://github.com/sahastraG39/Bayesian-Analysis.git',
+    github: 'https://github.com/sahastraG39/Bayesian-Analysis-of-Student-Academic-Performance.git',
   },
   {
     title: 'Customer Segmentation Analysis - Course Project STA4053',
