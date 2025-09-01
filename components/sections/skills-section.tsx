@@ -105,7 +105,7 @@ export function SkillsSection() {
             {softSkills.map((skill, index) => (
               <div
                 key={skill}
-                className="bg-gradient-to-r from-purple-600 to-purple-700 text-white px-6 py-3 rounded-full font-medium shadow-lg hover:from-purple-700 hover:to-purple-800 transition-all duration-300 transform hover:scale-105 hover-lift animate-fade-in-up"
+                className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 rounded-full font-medium shadow-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-300 transform hover:scale-105 hover-lift animate-fade-in-up"
                 style={{ animationDelay: `${0.7 + index * 0.1}s` }}
               >
                 {skill}
