@@ -58,10 +58,11 @@ export default function Home() {
                 <div className="space-y-3">
                   <h3 className="text-lg font-semibold text-gray-800">A Bit About Me</h3>
                   <p className="text-base text-gray-600 leading-relaxed max-w-5xl">
-                    Passionate software engineer with expertise in generative AI, machine learning, data science, and
-                    web development. Currently interning in Software Engineering for GenAI while pursuing my final year in
-                    Statistics and Operations Research. I love turning complex data into meaningful
-                    insights and building innovative AI-powered solutions.
+                    Passionate software engineer with expertise in generative AI, machine learning,
+                    data science, and web development. Currently interning in Software Engineering
+                    for GenAI while pursuing my final year in Statistics and Operations Research. I
+                    love turning complex data into meaningful insights and building innovative
+                    AI-powered solutions.
                   </p>
                 </div>
               </div>
@@ -104,8 +105,9 @@ export default function Home() {
                 <div>
                   <h3 className="text-2xl font-bold text-blue-400 mb-3">SG</h3>
                   <p className="text-gray-300 text-sm leading-relaxed">
-                    Statistics graduate and Software Engineering in GenAI enthusiast passionate about data science, machine
-                    learning, and turning complex data into meaningful insights.
+                    Statistics graduate and Software Engineering in GenAI enthusiast passionate
+                    about data science, machine learning, and turning complex data into meaningful
+                    insights.
                   </p>
                 </div>
 
