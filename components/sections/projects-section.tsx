@@ -4,6 +4,24 @@ import { useState } from 'react';
 
 const projects = [
   {
+    title: 'Bayesian Analysis - Statistical Inference & Decision Making',
+    description:
+      'Comprehensive Bayesian analysis project implementing advanced statistical inference techniques including Bayesian parameter estimation, hypothesis testing, and decision theory. The project covers prior and posterior distributions, Markov Chain Monte Carlo (MCMC) methods, Bayesian model comparison, and credible intervals. Applied Bayesian methods to real-world datasets for parameter estimation, A/B testing, and uncertainty quantification. Features include implementation of conjugate priors, Metropolis-Hastings algorithm, Gibbs sampling, and Bayesian model averaging for robust statistical inference.',
+    technologies: [
+      'Bayesian Statistics',
+      'MCMC Methods',
+      'PyMC3/PyMC4',
+      'NumPy',
+      'SciPy',
+      'Matplotlib',
+      'Seaborn',
+      'Jupyter',
+      'Statistical Modeling',
+      'Decision Theory',
+    ],
+    github: 'https://github.com/sahastraG39/Bayesian-Analysis.git',
+  },
+  {
     title: 'Customer Segmentation Analysis - Course Project STA4053',
     description:
       "This study aims to explore and analyze customer data using a comprehensive set of multivariate statistical and machine learning techniques. This study uses a dataset of 100,000 observations with 18 variables, including 10 numerical (e.g., age, income) and 8 categorical (e.g., gender, region) features. The dataset's size and diversity enable effective pattern detection, dimensionality reduction, and predictive modeling. The dataset comprises multiple features related to customer behavior, demographics, and potentially transactional information. The objective is to uncover underlying patterns, reduce dimensionality for better visualization and interpretation, and build predictive models for classification or segmentation purposes.",
