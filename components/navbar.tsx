@@ -93,7 +93,7 @@ export function Navbar() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Education
-            </Link>
+              </Link>
               <Link
                 href="#projects"
                 className="text-gray-700 hover:text-blue-600 transition-colors font-medium py-2"
