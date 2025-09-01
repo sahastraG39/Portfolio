@@ -68,7 +68,7 @@ const projects = [
       'Legal-BERT',
       'BART',
     ],
-    github: 'https://github.com/sahastraG39/AI-Legal-Advisor.git',
+    github: 'https://github.com/sahastraG39/AI_Legal_Advisor.git',
   },
   // Add more projects here by copying the structure above
 ];

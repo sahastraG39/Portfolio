@@ -88,9 +88,9 @@ export function EducationSection() {
             <div className="space-y-4">
               <div className="p-4 bg-gray-50 rounded-lg">
                 <h4 className="text-lg font-semibold text-gray-900">Current Role</h4>
-                <p className="text-blue-600 font-medium">AI/ML Intern</p>
+                <p className="text-blue-600 font-medium">Software Engineering in GenAI</p>
                 <p className="text-gray-600 text-sm">
-                  Developing innovative solutions in machine learning with AI
+                  Developing innovative software solutions using generative AI and machine learning
                 </p>
               </div>
 
